@@ -53,12 +53,12 @@
 		<img src="img/persona.png" align="center" class="img-rounded" alt="id" width="180" height="170">
 				<h4>Men&#250;</h4>
 				<div class="list-group">
-					<a href="mainInstructor.html" class="list-group-item  active">Inicio</a>
-					<a href="crearExamenPartic.html" class="list-group-item">Crear examen</a>
-					<a href="solicitudesParticipante.html" class="list-group-item">Solicitudes de participantes</a>
-					<a href="registrarInstructor.html" class="list-group-item ">Registrar participante</a>
-					<a href="bancoPreguntasInst.html" class="list-group-item ">Registrar banco de preguntas</a>
-					<a href="InsCuenta.html" class="list-group-item ">Administrar cuenta</a>
+					<a href="mainInstructor.jsp" class="list-group-item  active">Inicio</a>
+					<a href="crearExamenPartic.jsp" class="list-group-item">Crear examen</a>
+					<a href="solicitudesParticipante.jsp" class="list-group-item">Solicitudes de participantes</a>
+					<a href="registrarInstructor.jsp" class="list-group-item ">Registrar participante</a>
+					<a href="bancoPreguntasInst.jsp" class="list-group-item ">Registrar banco de preguntas</a>
+					<a href="InsCuenta.jsp" class="list-group-item ">Administrar cuenta</a>
 				</div>
 	</section>
 					<br>
