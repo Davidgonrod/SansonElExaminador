@@ -290,5 +290,16 @@ public class SecurityControllerServlet extends HttpServlet
 		}
 	}
 	
+	protected void starTimer(final HttpSession sesion) {
+        TimerTask timerTask = new TimerTask() {
 
+            @Override
+            public void run() {
+                sesion.invalidate();
+            }
+        };
+        
+        Timer timer = new Timer ();
+        timer.schedule(timerTask, 600000);
+    }
 }
