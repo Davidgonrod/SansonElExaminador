@@ -130,7 +130,7 @@
 			<input type="text" name="banco" class="form-control" aria-describedby="basic-addon1">
 			</div><p><br>
 	<textarea class="medium-textarea" name="participantes" ref="Medium"></textarea>
-	</div><br><br><br>
+	</div></div></div><br>
 <% if(session.getAttribute(Attribute.Session.CURRENT_USER) == null) { %>
 <a href="loggin.jsp">Login</a>
 <% } %>
